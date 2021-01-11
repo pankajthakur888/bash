@@ -1,4 +1,17 @@
-# shell
+# 6 Bash Conditional Expression Examples ( -e, -eq, -z, !=, [, [[ ..)
+
+Bash expression is the combination of operators, features, or values used to form a bash conditional statement. Conditional expression could be binary or unary expression which involves numeric, string or any commands whose return status is zero when success.
+
+
+There are several conditional expressions that could be used to test with the files. Following are few conditional expressions that are helpful.
+
+[ -e filepath ] Returns true if file exists.
+[ -x filepath ] Returns true if file exists and executable.
+[ -S filepath ] Returns true if file exists and its a socket file.
+[ expr1 -a expr2 ] Returns true if both the expression is true.
+[ expr1 -o expr2 ] Returns true if either of the expression1 or 2 is true.
+For more conditional expression to check the files, strings and numerics please refer the bash man page.
+
    #Linux shell scripts
 
 #1. Check File Existence
